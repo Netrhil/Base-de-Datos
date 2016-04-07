@@ -1,0 +1,39 @@
+create table Persona
+(
+Rut varchar (40) ,
+Nombre varchar(40),
+Direccion varchar(40),
+Telefono int ,
+Sexo char (1)
+)
+insert into Persona values
+(
+ '18630060-2',
+ 'Jose Ignacio Mansilla Lobos',
+ ' No where ',
+   56565656 ,
+ 'M' 
+ )
+ insert into Persona values
+(
+ '12456987-1',
+ 'Juan de Ballestas',
+ 'Bitacura 11 ',
+  539712345 ,
+  'M'
+ )
+ 
+select Rut , Nombre , Sexo from Persona
+ from Persona
+ 
+Select *
+ from Persona
+ Where Sexo = 'M'
+
+Select *
+ from Persona
+ Where Direccion like '%Wh%'
+ 
+Select *
+ from Persona
+ Where Rut like '%1'
